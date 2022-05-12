@@ -1,5 +1,8 @@
+/****************** Import The Fonts Start ******************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/****************** Import The Fonts End ******************/
 
+/****************** Global Features Start ******************/
 *{
     margin: 0;
     padding: 0;
@@ -29,17 +32,21 @@ body{
     background-color: #F5F5F5;
     font-family: 'Poppins', sans-serif;
 }
+/****************** Global Features End ******************/
 
+/****************** Aside & Main Features Start ******************/
 aside,main{
     background-color: white;
 }
+/****************** Aside & Main Features End ******************/
 
+/****************** Mobile Menu Features Start ******************/
 .mobile-menu{
     display: none;
 }
+/****************** Mobile Menu Features End ******************/
 
-
-/********** Aside *********/
+/****************** Aside Features Start ******************/
 aside{
     grid-area:aside;
     display: flex;
@@ -50,9 +57,9 @@ aside{
     overflow-y: auto;
     overflow-x: hidden;
 }
+/****************** Aside Features End ******************/
 
-
-/* Logo */
+/****************** Logo Features Start ******************/
 .logo{
     display: flex;
     flex-direction: column;
@@ -69,8 +76,9 @@ aside>.logo>h1{
     font-weight: 600;
     line-height: 29px;
 }
+/****************** Logo Features End ******************/
 
-/* Menu */
+/****************** Menu Features Start ******************/
 aside>.menu>ul{
     list-style: none;
     font-size: 14px;
@@ -102,8 +110,9 @@ aside>.menu>ul>a>li:hover{
     background-color: #fcfcfc;
     border-right: 2px solid #FF7F00;
 }
+/****************** Menu Features End ******************/
 
-/* Icons */
+/****************** Icons Features Start ******************/
 aside>.icons{
     display: flex;
     gap: 7px;
@@ -121,48 +130,50 @@ aside>.icons>a:hover{
     background-color: #FF7F00;
     color: white;
 }
+/****************** Icons Features End ******************/
 
-/* Scrollbar */
-
+/****************** Scrollbar Features Start ******************/
 aside::-webkit-scrollbar {
     max-width: 5px;
-  }
+}
   
 aside::-webkit-scrollbar-track {
     background: #f5f5f5; 
 
-  }
+}
    
  aside::-webkit-scrollbar-thumb {
     background: #ddd; 
 
-  }
+}
+/****************** Scrollbar Features End ******************/
 
-/********** Main **********/
+/****************** Main Features Start ******************/
 main{
     grid-area:main;
     overflow: auto;
     display: grid;
     grid-template-rows: auto;
 }
+/****************** Main Features End ******************/
 
-
-/* Main Scrollbar */
+/****************** Main's Scrollbar Features Start ******************/
 main::-webkit-scrollbar {
     max-width: 5px;
-  }
+}
   
   main::-webkit-scrollbar-track {
     background: #f5f5f5; 
 
-  }
+}
    
   main::-webkit-scrollbar-thumb {
     background: #ddd; 
 
-  }
+}
+/****************** Main's Scrollbar End ******************/
 
-/******** Header ********/
+/****************** Header Features Start ******************/
 header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -219,10 +230,9 @@ header>.introduce>a:hover{
     color: white;
     background-color: #FF7F00;
 }
+/****************** Header Features End ******************/
 
-
-
-/******** Services ********/
+/****************** Services Features Start ******************/
 .services{
     display: grid;
     grid-template-rows: auto 5fr;
@@ -267,9 +277,9 @@ header>.introduce>a:hover{
     font-size: 18px;
     margin-bottom: 5px;
 }
+/****************** Services Features End ******************/
 
-/************* Comments *************/
-
+/****************** Comments Features Start ******************/
 .comments{
     display: grid;
     grid-template-rows: 40px auto;
@@ -325,9 +335,9 @@ header>.introduce>a:hover{
     color: rgb(105, 105, 105);
     font-weight: 400;
 }
+/****************** Comments Features End ******************/
 
-/************* References *************/
-
+/****************** References Features Start ******************/
 .references{
     padding: 0 70px 50px 70px;
     display: grid;
@@ -380,9 +390,11 @@ header>.introduce>a:hover{
     color: white;
     border: 1px solid #FF7F00;
 }
+/****************** References Features End ******************/
 
-/* Media */
+/******************* Media Query Features Start *******************/
 @media screen and (max-height:528px) {
+    
     aside>.menu>ul{
         width: 155px;
     }
@@ -390,7 +402,7 @@ header>.introduce>a:hover{
 
 @media screen and (max-width:768px) {
 
-     body{
+    body{
     grid-template-columns: 1fr;
     grid-template-areas: "main";
     }
@@ -437,122 +449,120 @@ header>.introduce>a:hover{
 
 @media screen and (max-width:990px){
         
-        body{
-            grid-template-areas: "top-menu" 
-                                 "main";
-            grid-template-columns: 1fr;
-            grid-template-rows: auto auto;
-        }
+    body{
+        grid-template-areas: "top-menu" 
+                              "main";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
          
-        main{
-            grid-area: main;
-        }
+    main{
+        grid-area: main;
+    }
 
-        .top-menu{
-            grid-area: top-menu;
-            display: flex;
-            background-color: white;
-            border-bottom: 1px solid #f5f5f5;
-            align-items: center;
-            padding: 10px 15px;
-        }
+    .top-menu{
+        grid-area: top-menu;
+        display: flex;
+        background-color: white;
+        border-bottom: 1px solid #f5f5f5;
+        align-items: center;
+        padding: 10px 15px;
+    }
         
-        .top-menu>.right-side{
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
+    .top-menu>.right-side{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
 
-        .top-menu>.right-side>.logo{
-            width: 35px;
-        }
+    .top-menu>.right-side>.logo{
+        width: 35px;
+    }
 
-        .top-menu>.right-side>.logo>img{
-            width: 100%;
-        }        
+    .top-menu>.right-side>.logo>img{
+        width: 100%;
+    }        
         
-        .top-menu>.right-side>.text>h1{
-            font-size: 20px;
-            font-weight: 600;
-        }
+    .top-menu>.right-side>.text>h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
 
-        .top-menu>.left-side{
-            margin-left: auto;
-        }
+    .top-menu>.left-side{
+        margin-left: auto;
+    }
 
-        .top-menu>.left-side>a{
-            color: #333333;
-            font-size: 22px;
-        }
+    .top-menu>.left-side>a{
+        color: #333333;
+        font-size: 22px;
+    }
 
-        .mobile-menu{
-            display: block;
-            border-bottom: 1px solid #f5f5f5;
-        }
+    .mobile-menu{
+        display: block;
+        border-bottom: 1px solid #f5f5f5;
+    }
 
-        .mobile-menu>.content-menu{
-            background-color: white;
-            text-align: center;  
-            padding: 0 0 10px 0;         
-        }
+    .mobile-menu>.content-menu{
+        background-color: white;
+        text-align: center;  
+        padding: 0 0 10px 0;         
+    }
 
-        .d-none{
-            display: none;
-        }
+    .d-none{
+        display: none;
+    }
 
-        .d-block{
-            display: block;
-        }
+    .d-block{
+        display: block;
+    }
 
-        .mobile-menu>.content-menu>.links{
-            margin-bottom: 10px;
-        }
+    .mobile-menu>.content-menu>.links{
+        margin-bottom: 10px;
+    }
 
-        .mobile-menu>.content-menu a{
-            color:#333333
-        }
+    .mobile-menu>.content-menu a{
+        color:#333333
+    }
 
-        .mobile-menu>.content-menu>.links>ul{
-            display: flex;
-            flex-direction: column;
-            gap:7px
-        }
+    .mobile-menu>.content-menu>.links>ul{
+        display: flex;
+        flex-direction: column;
+        gap:7px
+    }
 
-        .mobile-menu>.content-menu>.links>ul>a>li{
-            padding: 10px;
-        }
+    .mobile-menu>.content-menu>.links>ul>a>li{
+        padding: 10px;
+    }
 
-        .mobile-menu>.content-menu>.links>ul>a{
-            transition: background-color 0.3s;
-        }
+    .mobile-menu>.content-menu>.links>ul>a{
+        transition: background-color 0.3s;
+    }
 
-        .mobile-menu>.content-menu>.links>ul>a:hover{
-            background-color: #fcfcfc;
-            border-right: 2px solid #FF7F00;
-        }
+    .mobile-menu>.content-menu>.links>ul>a:hover{
+        background-color: #fcfcfc;
+        border-right: 2px solid #FF7F00;
+    }
 
-        .mobile-menu>.content-menu>.social{
-            display: flex;
-            gap: 7px;
-            justify-content: center;
-        }
+    .mobile-menu>.content-menu>.social{
+        display: flex;
+        gap: 7px;
+        justify-content: center;
+    }
 
-        .mobile-menu>.content-menu>.social>a{
-            background-color: #eee;
-            color: #888;
-            padding: 3px 5px;
-            transition: background-color 0.3s,color 0.3s;
-            font-size: 15px;
-        }
+    .mobile-menu>.content-menu>.social>a{
+        background-color: #eee;
+        color: #888;
+        padding: 3px 5px;
+        transition: background-color 0.3s,color 0.3s;
+        font-size: 15px;
+    }
 
-        .mobile-menu>.content-menu>.social>a:hover{
-            background-color: #FF7F00;
-            color: white;
-        }
+    .mobile-menu>.content-menu>.social>a:hover{
+        background-color: #FF7F00;
+        color: white;
+    }
 
-        aside{
-            display: none;
-        }
-
-        
+    aside{
+        display: none;
+    }
 }
