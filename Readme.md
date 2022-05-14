@@ -1,6 +1,6 @@
 # RESPONSIVE PORTFOLIO WEBSITE 📰
 
-![Laptop View](https://user-images.githubusercontent.com/80166639/156396672-49ee79ba-1fb3-430e-84e1-4e23b03207ae.png)
+![View](https://github.com/beyzanur-seyhan/responsive-portfolio-page/blob/main/view/portfolio.png?raw=true)
 
 
 ▶️ [Used Languages Or Technologies](#used-languages-or-technologies)
@@ -78,4 +78,4 @@ git clone https://github.com/beyzanur-seyhan/responsive-portfolio-website.git
 
 If you want to contact me about this project, the channels you can contact are:
 
-[Gmail](mailto:admin@cloudhadoop.com) | [Linkedin](https://www.linkedin.com/in/beyzanurseyhan/)
+[Gmail](mailto:info@beyzanurseyhan.com) | [Linkedin](https://www.linkedin.com/in/beyzanurseyhan/)
