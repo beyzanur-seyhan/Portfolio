@@ -5,7 +5,7 @@
 
 ▶️ [Used Languages Or Technologies](#used-languages-or-technologies)
 
-▶️ [Views](#views)
+▶️ [View](#view)
 
 ▶️ [Fonts And Colors](#fonts-and-colors)
 
