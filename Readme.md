@@ -1,4 +1,4 @@
-# RESPONSIVE PORTFOLIO WEBSITE 📰
+# RESPONSIVE PORTFOLIO WEBSITE 🙍
 
 ![View](https://github.com/beyzanur-seyhan/responsive-portfolio-page/blob/main/view/portfolio.png?raw=true)
 
@@ -72,7 +72,7 @@ git clone https://github.com/beyzanur-seyhan/responsive-portfolio-website.git
 
 ## License
 
-[MIT License](https://github.com/beyzanur-seyhan/responsive-news-website/blob/main/LICENSE)
+[MIT License](https://github.com/beyzanur-seyhan/responsive-portfolio-page/blob/main/LICENSE)
 
 ## Contact Me
 
