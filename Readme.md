@@ -5,8 +5,6 @@
 
 ▶️ [Used Languages Or Technologies](#used-languages-or-technologies)
 
-▶️ [View](#view)
-
 ▶️ [Fonts And Colors](#fonts-and-colors)
 
 ▶️ [Getting Started](#getting-started)
