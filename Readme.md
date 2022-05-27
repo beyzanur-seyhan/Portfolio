@@ -1,4 +1,4 @@
-# RESPONSIVE PORTFOLIO WEBSITE 🙍
+# RESPONSIVE PORTFOLIO HOMEPAGE 🙍
 
 ![View](https://github.com/beyzanur-seyhan/responsive-portfolio-page/blob/main/view/portfolio.png?raw=true)
 
